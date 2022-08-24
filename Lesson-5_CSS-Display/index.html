@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+    <header>
+        <h3>freeCodeCamp Survey Form</h3>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing.
+        </p>
+    </header>
+    <main>
+        <form>
+            <div class="form-group name">
+                <label>Name:</label>
+                <input type="text" placeholder="Enter your name">
+            </div>
+            <div class="form-group email">
+                <label>Email:</label>
+                <input type="text" placeholder="Enter your email">
+            </div>
+            <div class="form-group age">
+                <label>Age(optional):</label>
+                <input type="text" placeholder="Enter your age">
+            </div>
+            <div class="form-group currentRole">
+                <label>Which option describe your current role:</label>
+                <select id="roleSelect">
+                    <option hidden>Select an optio</option>
+                    <option>Engineer</option>
+                    <option>Director</option>
+                    <option>CEO</option>
+                </select>
+            </div>
+            <div class="form-group recomment">
+                <label>Would you recomment:</label>
+                <div class="maybeRadio">
+                    <input name="recommend" type="radio">
+                    <label>Maybe</label>
+                </div>
+                <div class="maybeRadio">
+                    <input name="recommend" type="radio">
+                    <label>Yes</label>
+                </div>
+                <div class="maybeRadio">
+                    <input name="recommend" type="radio">
+                    <label>No</label>
+                </div>
+            </div>
+            <div class="form-group currentRole">
+                <label>Which option describe your current favorite:</label>
+                <select id="roleSelect">
+                    <option hidden>Select an optio</option>
+                    <option>Engineer</option>
+                    <option>Director</option>
+                    <option>CEO</option>
+                </select>
+            </div>
+
+            <div class="form-group checkBoxes">
+                <label>Would you like to see improve</label>
+                <div class="maybeRadio">
+                    <input type="checkbox">
+                    <label>Front-End</label>
+                </div>
+                <div class="maybeRadio">
+                    <input type="checkbox">
+                    <label>Back-End</label>
+                </div>
+                <div class="maybeRadio">
+                    <input type="checkbox">
+                    <label>Data</label>
+                </div>
+                <div class="maybeRadio">
+                    <input type="checkbox">
+                    <label>UX/UI</label>
+                </div>
+                <div class="maybeRadio">
+                    <input type="checkbox">
+                    <label>Power BI</label>
+                </div>
+            </div>
+
+            <div class="form-group comment">
+                <label>Any comments?</label>
+                <textarea rows="4" cols="50" placeholder="Enter your comments here"></textarea>
+            </div>
+
+            <div class="form-group submit">
+                <button>Submit</button>
+            </div>
+        </form>
+    </main>
+
+
+
+</body>
+
+</html>

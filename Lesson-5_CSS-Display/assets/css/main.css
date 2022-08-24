@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 300px;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url("../images/office.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header,
+main,
+input,
+#roleSelect,
+button,
+textarea{
+    width: 100%;
+}
+
+header{
+    /* background-color: red; */
+    height: 100px;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+}
+header>p{
+    margin-top: 10px;
+}
+main{
+    /* background-color: aqua; */
+    /* height: 500px; */
+    padding-top: 20px;
+}
+form{
+    width: 30%;
+    margin: auto;
+    background-color: #012b5b;
+    padding: 10px;
+}
+form label{
+    display: block;
+    color:white;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+#roleSelect{
+    height: 25px;
+}
+.maybeRadio>input{
+    width: 3%;
+}
+.maybeRadio>label{
+    width: inherit;
+    display: inline-block;
+}
+button{
+    background-color: green;
+    color: white;
+    height: 30px;
+    border: none;
+}
+.form-group{
+   margin:10px 0px;
+}
+.name>input , 
+.email>input, 
+.age>input{
+    height: 25px;
+    border: 1px solid white;
+    border-radius: 3px;
+}
